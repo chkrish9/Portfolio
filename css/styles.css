@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/bg.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+P {
+    font-family: 'Russo One', sans-serif;
+    color:#fff;
+    font-size: 2.2em;
+    margin-bottom: 0;
+}
+.links,.links a{
+    color: #fff;
+}
+.links a{
+    margin-left: 2px;
+}
