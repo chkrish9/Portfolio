@@ -1,0 +1,12 @@
+Home
+	Name and Caption , Photo, Background
+About 
+	Description about me
+Experience and Project
+	Company exp
+	Project exp
+Skills and Awards
+	MS tech, Client side
+	HCL and Tirumala eng clg
+Contact and Resume
+	Email, github, linkedin, Twitter
