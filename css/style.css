@@ -52,7 +52,7 @@ section.home{
 }
 section{
 	padding: 8em 0;
-	background-color: tomato
+	color:#fff;
 }
 .masthead {
 	height: 100vh;
@@ -69,8 +69,16 @@ section{
 	background-size: cover;
   }
   .font-family-yanone{
-	color: white;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+  .font-color-white{
+	color: #fff;
+  }
+  .font-color-red{
+	  color: #ff0101;
+  }
+  .font-color-black{
+	color: #000000;
   }
   .home-text{
 	text-align: center;
@@ -79,6 +87,14 @@ section{
   .bottom-0{
 	  bottom: 0;
 	  position: absolute;
+  }
+  .under-construction{
+	  text-align: center;
+	  font-family: 'Yanone Kaffeesatz', sans-serif;
+	  font-size: 5em;
+  }
+  .font-size-3em{
+	  font-size: 3em;
   }
   @media (max-width: 768px) {
 	.navbar{
