@@ -96,6 +96,10 @@ section{
   .font-size-3em{
 	  font-size: 3em;
   }
+  .contact-text,.contact-text:hover{
+	  text-decoration:none;
+	  color: #fff;
+  }
   @media (max-width: 768px) {
 	.navbar{
 		background-color:#1B2343;
