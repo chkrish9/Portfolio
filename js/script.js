@@ -24,4 +24,7 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+  $('.nav-link').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
 })($);
