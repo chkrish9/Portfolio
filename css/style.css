@@ -64,6 +64,28 @@ section#skillsAwards{
 	background-color: #fff;
 	color: #000;
 }
+section#portfolio{
+	background-color: #d8d7d7;
+    color: #000;
+}
+.company-logo{
+	width: 150px;
+}
+.del-company-logo{
+	width: 200px;
+}
+.teco-logo{
+	width: 250px;
+	height: 100px;
+}
+.oregon-logo{
+	width: 400px;
+	height: 100px;
+}
+.hcl-proj-logo{
+	width: 350px;
+	height: 100px;
+}
 section{
 	padding: 5em 0;
 	color:#fff;
@@ -141,6 +163,12 @@ section{
 	}
 	.margin-topbottom-5px{
 		margin: 5px 0;
+	}
+	.margin-topbottom-10px{
+		margin: 10px 0;
+	}
+	.margin-10px{
+		margin: 10px;
 	}
   @media (max-width: 768px) {
 	.navbar{
