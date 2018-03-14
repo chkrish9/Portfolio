@@ -57,6 +57,9 @@ section#about{
 	padding: 5em 0;
 	background-color: #2e8b57;
 }
+section#about{
+	background-color: #008fcc;
+}
 section{
 	padding: 8em 0;
 	color:#fff;
