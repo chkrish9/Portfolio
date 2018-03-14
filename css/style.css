@@ -10,7 +10,10 @@ body{
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
-
+.logo{
+	height: 30px;
+	width: 100px;
+}
 .navbar{
 	background-color:transparent;
 }
