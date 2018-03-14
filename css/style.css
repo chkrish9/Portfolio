@@ -75,19 +75,19 @@ section#portfolio{
 	width: 200px;
 }
 .teco-logo{
-	width: 250px;
-	height: 100px;
-	margin: 5px;
+	width: 16em;
+    height: 6em;
+    margin: 0.5em;
 }
 .oregon-logo{
-	width: 300px;
-	height: 60px;
-	margin: 5px;
+	width: 20em;
+    height: 4em;
+    margin: 0.5em;
 }
 .hcl-proj-logo{
-	width: 300px;
-	height: 80px;
-	margin: 5px;
+	width: 20em;
+    height: 5em;
+    margin: 0.5em;
 }
 section{
 	padding: 5em 0;
