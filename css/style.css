@@ -192,6 +192,6 @@ section{
 		font-size: 2em;
 	}
 	.masthead {
-		background-attachment: unset;
+		background-attachment: initial;
 	}
   }
