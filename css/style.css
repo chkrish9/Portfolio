@@ -109,7 +109,8 @@ section{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	}
+	background-attachment: fixed;
+}
 	
   .font-family-yanone{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
