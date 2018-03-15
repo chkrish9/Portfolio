@@ -27,4 +27,9 @@
   $('.nav-link').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
+  $('.img-zoom').on('click', function() {
+    $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+    $('#enlargeImageModal').modal('show');
+  });
+
 })($);

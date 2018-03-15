@@ -49,6 +49,9 @@ body{
 	text-align: center;
 	vertical-align: middle;
 }
+.img-zoom {
+    cursor: zoom-in;
+}
 section.home{
 	padding: 0;
 	color:#fff;
