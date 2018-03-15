@@ -191,4 +191,7 @@ section{
 		text-align: center;
 		font-size: 2em;
 	}
+	.masthead {
+		background-attachment: unset;
+	}
   }
