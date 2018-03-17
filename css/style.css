@@ -74,9 +74,6 @@ section#portfolio{
 .company-logo{
 	width: 150px;
 }
-.del-company-logo{
-	width: 200px;
-}
 .teco-logo{
 	width: 16em;
     height: 6em;
@@ -90,6 +87,10 @@ section#portfolio{
 .hcl-proj-logo{
 	width: 20em;
     height: 5em;
+    margin: 0.5em;
+}
+.personal-proj-logo{
+	width: 15em;
     margin: 0.5em;
 }
 section{
