@@ -42,6 +42,7 @@
       return false;
     } else {
       e.preventDefault();
+    var $contactForm = $('#contact-form');
     $.ajax({
       url: '//formspree.io/murali.ofc@outlook.com',
       method: 'POST',
