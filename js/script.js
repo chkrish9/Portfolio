@@ -48,8 +48,6 @@
         datatype: 'json',
         success:function(data) {
           console.log(data); 
-          $("#captcha").html("");
-          $("#captcha").html(data);
         }   
       });
       e.preventDefault();
