@@ -45,7 +45,10 @@
         method: 'POST',
         url: 'https://formspree.io/murali.ofc@outlook.com',
         data: $('#contact-form').serialize(),
-        datatype: 'json'
+        datatype: 'json',
+        success:function(data) {
+          console.log(data); 
+        }   
       });
       e.preventDefault();
       $(this).get(0).reset();
