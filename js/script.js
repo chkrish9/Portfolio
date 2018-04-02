@@ -22,6 +22,7 @@
   };
   // Collapse now if page is not at top
   navbarCollapse();
+  $("#error-block").hide();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
   $('.nav-link').click(function() {
@@ -31,5 +32,24 @@
     $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
     $('#enlargeImageModal').modal('show');
   });
-
+  $('#contact-form').submit(function(e) {
+    var email, message, name;
+    name = document.getElementById('inputName');
+    email = document.getElementById('inputEmail');
+    message = document.getElementById('inputMessage');
+    if (!name.value || !email.value || !message.value) {
+      $("#error-block").show();
+      return false;
+    } else {
+      $.ajax({
+        method: 'POST',
+        url: 'https://formspree.io/murali.ofc@outlook.com',
+        data: $('#contact-form').serialize(),
+        datatype: 'json'
+      });
+      e.preventDefault();
+      $(this).get(0).reset();
+      $("#error-block").hide();
+    }
+  });
 })($);
