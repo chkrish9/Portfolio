@@ -144,6 +144,9 @@ section{
   .padding-topbottom-1em{
 	padding: 1em 0;
   }
+  .padding-2em{
+	  padding: 2em;
+  }
   .contact-text,.contact-text:hover{
 	  text-decoration:none;
 	  color: #fff;
