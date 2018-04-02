@@ -43,11 +43,13 @@
     } else {
       $.ajax({
         method: 'POST',
-        url: 'https://formspree.io/murali.ofc@outlook.com',
+        url: '//formspree.io/murali.ofc@outlook.com',
         data: $('#contact-form').serialize(),
         datatype: 'json',
         success:function(data) {
           console.log(data); 
+          $("#captcha").html("");
+          $("#captcha").html(data);
         }   
       });
       e.preventDefault();
