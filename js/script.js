@@ -30,6 +30,7 @@
   });
   $('.img-zoom').on('click', function() {
     $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+    $('#enlargeImageModal').find(".model-title").text($(this).data("titletext"))
     $('#enlargeImageModal').modal('show');
   });
   $('#contact-form').submit(function(e) {
