@@ -91,7 +91,8 @@ section#portfolio{
 }
 .personal-proj-logo{
 	width: 15em;
-    margin: 0.5em;
+	margin: 0.5em;
+	height: 8em;
 }
 section{
 	padding: 5em 0;
