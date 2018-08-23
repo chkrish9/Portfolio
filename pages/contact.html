@@ -47,7 +47,84 @@
       </ul>
     </div>
   </nav>
-
+  <div class="container">
+    <div class="card">
+      <div class="card-header font-color-black font-family-yanone font-size-3em text-center">
+        <i class="fas fa-address-card"></i> Contact
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm-6 mt-1">
+            <form id="contact-form" action="//formspree.io/murali.ofc@outlook.com" method="post">
+              <div class="alert alert-danger" role="alert" id="error-block">
+                Please fill all the details
+              </div>
+              <div class="form-group">
+                <label for="exampleInputName" class="font-color-black">Name</label>
+                <input type="text" name="name" id="inputName" class="form-control" placeholder="Enter name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1" class="font-color-black">Email address</label>
+                <input type="email" name="email" id="inputEmail" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+                <small class="form-text text-muted">I'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1" class="font-color-black">Message</label>
+                <textarea name="message" id="inputMessage" class="form-control" rows="3" placeholder="Your message"></textarea>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_next" value="https://chkrish9.github.io/Portfolio/index.html" />
+              </div>
+              <div class="col-sm-4 offset-sm-4 text-center">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-sm-6 mt-1 padding-2em">
+            <div class="row">
+              <div class="col-sm-12 mt-1">
+                <div class="card bg-info">
+                  <div class="card-body text-center">
+                    <span class="far fa-envelope font-color-white"></span>
+                    <span class="font-color-white">murali.ofc@outlook.com</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 mt-1">
+                <div class="card bg-dark">
+                  <div class="card-body text-center">
+                    <span class="fab fa-linkedin font-color-white"></span>
+                    <span class="font-color-white">
+                      <a href="https://in.linkedin.com/in/murali-krishna-sai-chukka-705964121" class="contact-text">https://in.linkedin.com/in/murali-krishna-sai-chukka-705964121</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 mt-1">
+                <div class="card bg-secondary">
+                  <div class="card-body text-center">
+                    <span class="fab fa-github-square font-color-white"></span>
+                    <span class="font-color-white">
+                      <a href="https://github.com/chkrish9" class="contact-text">https://github.com/chkrish9</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 mt-1">
+                <div class="card bg-primary">
+                  <div class="card-body text-center">
+                    <span class="fab fa-twitter font-color-white"></span>
+                    <span class="font-color-white">
+                      <a href="https://twitter.com/murali_24" class="contact-text">https://twitter.com/murali_24</a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
  
   <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"

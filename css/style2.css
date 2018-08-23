@@ -75,3 +75,26 @@ pre{
     height: 100px;
     margin: 5px;
 }
+.company-logo{
+	width: 150px;
+}
+.teco-logo{
+	width: 16em;
+    height: 6em;
+    margin: 0.5em;
+}
+.oregon-logo{
+	width: 20em;
+    height: 4em;
+    margin: 0.5em;
+}
+.hcl-proj-logo{
+	width: 20em;
+    height: 5em;
+    margin: 0.5em;
+}
+.personal-proj-logo{
+	width: 15em;
+	margin: 0.5em;
+	height: 8em;
+}
