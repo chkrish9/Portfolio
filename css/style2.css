@@ -70,3 +70,8 @@ pre{
     margin-top: 7em;
     white-space: pre-line;
 }
+.skills-images{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
