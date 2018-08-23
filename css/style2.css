@@ -1,11 +1,11 @@
 .home-img{
-    width: 500px;
+    width: 65%;
     border-radius: 50%;
     margin-left: 9em;
 }
 body{
     height: 100%;
-	background-color: #fff;
+	background-color: #353434;
 }
 .navbar{
 	background-color:transparent;
@@ -19,7 +19,7 @@ body{
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover{
-	color: #1B2343;
+	color: #fff;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	font-size: 2em;
 }
@@ -52,4 +52,21 @@ body{
 }
 .color-red{
     color:red;
+}
+.color-js-blue{
+    color : #6495ed;
+}
+.color-js-yellow{
+    color:#f9f992;
+}
+.color-js-red{
+    color:#da6161;
+}
+code{
+    color: #fff!important;
+    font-size: 1.5em!important;
+}
+pre{
+    margin-top: 7em;
+    white-space: pre-line;
 }
