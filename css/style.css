@@ -209,7 +209,7 @@ section{
 	.display-style{
 		display: grid;
 	}
-	.display-style + div{
+	.display-style > div{
 		text-align: center
 	}
   }
